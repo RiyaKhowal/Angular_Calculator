@@ -1,0 +1,64 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid " >
+          <span class="navbar-brand mb-0 h1 ">Calculator</span>
+        </div>
+        </nav>
+
+        <div class="row mt-5">
+        <div class="col-2"></div>
+            <div class="col-4">
+            
+            <input type="number" [(ngModel)]="number1"placeholder="enter first No." >
+            </div>
+            <div class="col-4">
+            <input type="text" [(ngModel)]="number2" placeholder="enter second No." >
+            </div>
+          </div>
+      
+        </div>
+        </div>
+        </div>
+      
+        </div>
+        <div class="row mt-3">
+          <hr>
+          <div class="col-4"></div>
+         
+        <div class="col">
+            <button (click)="add()"  class="btn btn-primary "  >+</button>
+           
+           
+            <button (click)="Subtract()" class="btn btn-primary " >-</button>
+            
+              <button (click)="Multiply()" class="btn btn-primary " >*</button>
+              
+                <button (click)="divide()" class="btn btn-primary " >/</button>
+                
+                </div>
+              
+              <br>
+              <hr>
+              <br>
+                <div class="row">
+                  <div class="col-3"></div>
+                  <div class="col-5">
+                    <h2>Result: {{result}}  </h2>
+                   
+                  </div>
+                
+                </div>
+        </div>
+   
+
+
+
+
+
+
+
+
